@@ -1,0 +1,37 @@
+{
+  "name": "create-react-ts-tailwindcss-app",
+  "version": "1.0.1",
+  "description": "CLI to create React 19 + TailwindCSS 4 + TypeScript projects",
+  "main": "src/index.js",
+  "bin": {
+    "create-react-ts-tailwindcss-app": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "template/"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "typescript",
+    "template",
+    "scaffold",
+    "create-app",
+    "vite"
+  ],
+  "author": "p-abhay",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
