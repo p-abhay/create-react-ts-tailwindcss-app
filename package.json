@@ -1,8 +1,13 @@
 {
   "name": "create-react-ts-tailwindcss-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to create React 19 + TailwindCSS 4 + TypeScript projects",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-abhay/create-react-ts-tailwindcss-app.git"
+  },
+  "homepage": "https://react-ts-tailwindcss.netlify.app/",
   "bin": {
     "create-react-ts-tailwindcss-app": "./bin/cli.js"
   },
